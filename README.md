@@ -66,7 +66,7 @@ Foram cadastrados 10 clientes e utilizados os seguintes métodos:
   Pedro
   Ana
 
-2. Fila Circular
+2. FILA CIRCULAR
 
 A fila circular possui capacidade para 5 clientes.
 
@@ -76,7 +76,7 @@ Por exemplo, depois de remover um cliente da primeira posição, outro cliente p
 
 O programa também mostra os valores de front e rear durante os testes.
 
-3. Fila de Prioridade
+3. FILA DE PRIORIDADE
 
 A fila de prioridade foi implementada utilizando o módulo heapq.
 
