@@ -18,15 +18,15 @@ O objetivo do projeto é mostrar na prática como diferentes tipos de filas orga
 
 Cada cliente possui:
 
-Nome
-Senha
-Prioridade
+  Nome
+  Senha
+  Prioridade
 
 -As prioridades são:
 
-1 - Emergência
-2 - Prioritário
-3 - Normal
+  - Emergência
+  - Prioritário
+  - Normal
 
 Arquivos do projeto
 fila-atendimento-hands-on/
@@ -36,31 +36,31 @@ fila_circular.py
 fila_prioridade.py
 README.md
 
-1. Fila Clássica
+1. FILA CLÁSSICA
 
 A fila clássica utiliza o conceito FIFO (First In, First Out). Isso significa que o primeiro cliente que entra é o primeiro a ser atendido.
 
 Foram cadastrados 10 clientes e utilizados os seguintes métodos:
 
-enqueue() - adiciona cliente
-dequeue() - remove/atende cliente
-head() - mostra o próximo cliente
-size() - mostra o tamanho da fila
-empty() - verifica se está vazia
+  enqueue() - adiciona cliente
+  dequeue() - remove/atende cliente
+  head() - mostra o próximo cliente
+  size() - mostra o tamanho da fila
+  empty() - verifica se está vazia
 
-Exemplo:
+  Exemplo:
 
-Ordem de chegada:
-João
-Maria
-Pedro
-Ana
-
-Ordem de atendimento:
-João
-Maria
-Pedro
-Ana
+  Ordem de chegada:
+  João
+  Maria
+  Pedro
+  Ana
+  
+  Ordem de atendimento:
+  João
+  Maria
+  Pedro
+  Ana
 
 2. Fila Circular
 
