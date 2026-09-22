@@ -5,7 +5,9 @@ Projeto desenvolvido em Python para simular o funcionamento de três tipos de fi
 Fila clássica (FIFO)
 Fila Circular
 Fila de Prioridade
+
 -Integrantes
+
 Rhuann pabllo ferreira magalhães- 45158872
 Nome 2 - Matrícula
 Nome 3 - Matrícula
@@ -59,6 +61,7 @@ João
 Maria
 Pedro
 Ana
+
 2. Fila Circular
 
 A fila circular possui capacidade para 5 clientes.
@@ -92,6 +95,7 @@ Ordem de atendimento:
 Maria
 Pedro
 João
+
 4. Desafio Final
 
 O sistema também realiza uma simulação com 20 clientes, gerando automaticamente suas prioridades.
@@ -116,21 +120,21 @@ A fila clássica mantém a ordem de chegada. A fila circular funciona de forma s
 
 6. Perguntas:
 
-1. Por que a fila de prioridade pode ter uma ordem diferente da fila clássica?
+  . Por que a fila de prioridade pode ter uma ordem diferente da fila clássica?
 
-Porque a fila clássica segue a ordem de chegada, enquanto a fila de prioridade considera primeiro o nível de prioridade do cliente.
+    Porque a fila clássica segue a ordem de chegada, enquanto a fila de prioridade considera primeiro o nível de prioridade do cliente.
 
-2. Quando uma fila de prioridade seria mais adequada?
+  . Quando uma fila de prioridade seria mais adequada?
 
-Pode ser usada em situações como hospitais, chamados urgentes, suporte técnico e processamento de tarefas que possuem diferentes níveis de importância.
+    Pode ser usada em situações como hospitais, chamados urgentes, suporte técnico e processamento de tarefas que possuem diferentes níveis de importância.
 
-3. Quais são as vantagens e limitações de uma fila circular?
+  . Quais são as vantagens e limitações de uma fila circular?
 
-A principal vantagem é poder reutilizar posições que foram liberadas, aproveitando melhor o espaço. A limitação é que ela possui uma capacidade definida e precisa controlar os índices front e rear.
+    A principal vantagem é poder reutilizar posições que foram liberadas, aproveitando melhor o espaço. A limitação é que ela possui uma capacidade definida e precisa controlar os índices front e rear.
 
-4. O que acontece quando a fila circular está cheia?
+  . O que acontece quando a fila circular está cheia?
 
-Um novo cliente não pode ser inserido até que algum espaço seja liberado. O programa informa que a fila está cheia.
+    Um novo cliente não pode ser inserido até que algum espaço seja liberado. O programa informa que a fila está cheia.
 
 7. Como executar
 
