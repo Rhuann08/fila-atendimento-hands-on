@@ -3,37 +3,48 @@ Fila de Atendimento - Hands On
 Projeto desenvolvido em Python para simular o funcionamento de três tipos de filas em uma central de atendimento:
 
 Fila clássica (FIFO)
+
 Fila Circular
+
 Fila de Prioridade
 
--Integrantes
+-INTEGRANTES
 
 Rhuann pabllo ferreira magalhães- 45158872
+
 Nome 2 - Matrícula
+
 Nome 3 - Matrícula
 
--Objetivo
+-OBJETIVO
 
 O objetivo do projeto é mostrar na prática como diferentes tipos de filas organizam e atendem clientes.
 
 Cada cliente possui:
 
   Nome
+  
   Senha
+  
   Prioridade
 
 -As prioridades são:
 
   - Emergência
+    
   - Prioritário
+    
   - Normal
 
 Arquivos do projeto
 fila-atendimento-hands-on/
 
 fila_classica.py
+
 fila_circular.py
+
 fila_prioridade.py
+
 README.md
 
 1. FILA CLÁSSICA
@@ -55,15 +66,23 @@ Foram cadastrados 10 clientes e utilizados os seguintes métodos:
   Exemplo:
 
   Ordem de chegada:
+  
   João
+  
   Maria
+  
   Pedro
+  
   Ana
   
   Ordem de atendimento:
+  
   João
+  
   Maria
+  
   Pedro
+  
   Ana
 
 2. FILA CIRCULAR
@@ -83,7 +102,9 @@ A fila de prioridade foi implementada utilizando o módulo heapq.
 O cliente com menor número de prioridade é atendido primeiro:
 
 1 - Emergência
+
 2 - Prioritário
+
 3 - Normal
 
 Quando dois clientes possuem a mesma prioridade, a ordem de chegada é mantida através de um contador.
@@ -91,13 +112,17 @@ Quando dois clientes possuem a mesma prioridade, a ordem de chegada é mantida a
 Exemplo:
 
 João - prioridade 3
+
 Maria - prioridade 1
+
 Pedro - prioridade 2
 
 Ordem de atendimento:
 
 Maria
+
 Pedro
+
 João
 
 4. Desafio Final
@@ -107,10 +132,15 @@ O sistema também realiza uma simulação com 20 clientes, gerando automaticamen
 São apresentadas:
 
 Ordem de chegada;
+
 Ordem de atendimento da fila clássica;
+
 Funcionamento da fila circular;
+
 Valores de front e rear;
+
 Ordem de atendimento da fila de prioridade;
+
 Comparação entre as estruturas.
 
 5. Comparação
@@ -147,7 +177,9 @@ A fila clássica mantém a ordem de chegada. A fila circular funciona de forma s
 No terminal, dentro da pasta do projeto:
 
 python fila_classica.py
+
 python fila_circular.py
+
 python fila_prioridade.py
 
 8. Evidências
