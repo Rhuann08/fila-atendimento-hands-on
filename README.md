@@ -12,9 +12,9 @@ Fila de Prioridade
 
 Rhuann pabllo ferreira magalhães- 45158872
 
-Nome 2 - Matrícula
+guilherme de souza dutra- 45604061
 
-Nome 3 - Matrícula
+Ryan Áquila Damasceno Vieira- 38363470
 
 -OBJETIVO
 
@@ -199,6 +199,26 @@ Fila Circular
 Fila de Prioridade
 
 <img width="415" height="450" alt="teste2" src="https://github.com/user-attachments/assets/7495d0a3-1f0e-400c-acf1-c763de1fc995" />
+
+Desafio
+
+<img width="486" height="376" alt="desafio" src="https://github.com/user-attachments/assets/0f82019f-9af2-47b2-a893-a63cb74163bb" />
+<img width="434" height="379" alt="desafio2" src="https://github.com/user-attachments/assets/7be64138-3c75-4b79-a8d1-a96dcfce3fc2" />
+<img width="609" height="585" alt="desafio3" src="https://github.com/user-attachments/assets/aec44143-cd46-4795-87b5-a20c1d34c724" />
+<img width="458" height="301" alt="desafio4" src="https://github.com/user-attachments/assets/18485630-98da-4e52-a0eb-cb2c451a0fdf" />
+
+Comparação do desafio:
+
+A fila clássica atende os clientes na mesma ordem em que eles chegaram, seguindo o sistema FIFO.
+
+A fila circular funciona de forma parecida, mas tem um limite de 5 clientes e consegue reutilizar as posições que ficam vazias depois que um cliente é atendido.
+
+Já a fila de prioridade não segue somente a ordem de chegada. Ela atende primeiro os clientes com prioridade 1, depois os de prioridade 2 e por último os de prioridade 3. Quando os clientes possuem a mesma prioridade, a ordem de chegada é mantida.
+
+Assim, cada fila possui uma forma diferente de organizar os clientes e pode ser usada dependendo da situação.
+
+
+
 
 
 Conclusão
