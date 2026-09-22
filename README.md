@@ -43,9 +43,13 @@ A fila clássica utiliza o conceito FIFO (First In, First Out). Isso significa q
 Foram cadastrados 10 clientes e utilizados os seguintes métodos:
 
   enqueue() - adiciona cliente
+  
   dequeue() - remove/atende cliente
+  
   head() - mostra o próximo cliente
+  
   size() - mostra o tamanho da fila
+  
   empty() - verifica se está vazia
 
   Exemplo:
